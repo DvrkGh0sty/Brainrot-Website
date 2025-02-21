@@ -1,14 +1,54 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brainrot Web page</title>
+    <title>Brainrot Web Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>This is a website dedicated to Skibid Toilet</h1>
+    <nav>
+        <ul>
+            <li><a href="#origin">Origin</a></li>
+            <li><a href="#dictionary">Dictionary</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+        </ul>
+    </nav>
+    <h1>This is a website dedicated to Skibidi Toilet</h1>
+
     <img src="imgs/download.jpg" alt="Skibidi">
+
+    <div id="origin">
+        <h2>Origin of Skibidi Toilet</h2>
+        <p>
+            Skibidi Toilet originated from a YouTube series by DaFuq!?Boom! in 2023. It features humanoid toilets battling characters with cameras, 
+            speakers, and TVs for heads. The name comes from the song "Dom Dom Yes Yes" by Biser King. The series went viral due to its absurd humor,
+            fast action, and bizarre animation, spreading across YouTube Shorts and TikTok. Over time, it evolved with deeper lore and better CGI, 
+            becoming a major internet meme and cultural phenomenon.
+        </p>
+    </div>
+
+    <div id="dictionary">
+        <h2>Skibidi Dictionary</h2>
+        <ul>
+            <li><b>Skibidi:</b>A toilet with a head</li>
+            <li><b>Gooner:</b> Someone who rubs one.</li>
+            <li><b>Huzz:</b> Women</li>
+            <li><b>Bruzz:</b> Men</li>
+            <li><b>Fine Shyt:</b> Beautiful girls</li>
+            <h4>ETC</h6>
+        </ul>
+    </div>
+
+    <div id="quiz">
+        <h2>Is this Skibidi or Not?</h2>
+        <p>Skibidi Toilets were created in 2019.</p>
+        <button onclick="checkAnswer(false)">True</button>
+        <button onclick="checkAnswer(true)">False</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
